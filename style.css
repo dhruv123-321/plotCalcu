@@ -11,10 +11,12 @@ body {
 
 .heading {
     position: absolute;
-    top: 0;
+    top: -15px;
 }
 
 .calc {
+    position: absolute;
+    top: 50px;
     max-width: 400px;
     background-color: #fff;
     padding: 20px;
@@ -54,11 +56,12 @@ input[type="number"] {
 @media only screen and (max-width: 600px) {
     .calc {
         position: absolute;
-        top: 10%;
+        top: 22%;
         padding: 15px;
     }
 
     body {
+        font-size: 18px;
         height: auto;
     }
 
