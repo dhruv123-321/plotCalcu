@@ -8,7 +8,8 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
 }
-.heading{
+
+.heading {
     position: absolute;
     top: 0;
 }
@@ -57,7 +58,7 @@ input[type="number"] {
         padding: 15px;
     }
 
-    body{
+    body {
         height: auto;
     }
 
@@ -65,7 +66,7 @@ input[type="number"] {
         width: calc(100% - 10px);
     }
 
-    .heading{
+    .heading {
         position: absolute;
         top: -10px;
     }

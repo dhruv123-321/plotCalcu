@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('first').addEventListener('input', calculate);
     document.getElementById('second').addEventListener('input', calculate);
 });
